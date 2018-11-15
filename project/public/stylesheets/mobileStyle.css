@@ -1,0 +1,160 @@
+@font-face {
+            font-family: test1000;
+            src: url("Dalelands Uncial.otf");
+        }
+
+body {
+  font-family: test1000;
+  padding: 50px;
+  font: 12px;
+}
+
+.diceBody {
+  background-image: url("die_background.jpg");
+}
+
+.characterBody {
+  background-image: url("dragon_background.jpg");
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  font-family: test1000;
+  opacity: 0.8;
+  background-image: linear-gradient(to bottom, silver, #14475c, silver);
+  color: #ffffff;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: silver;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-family: test1000;
+  min-width: 80%;
+  max-width: 90%;
+  opacity: 0.8;
+  background-image: linear-gradient(to bottom, silver, #14475c, silver);
+  color: #ffffff;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: silver;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-family: test1000;
+  min-width: 80%;
+  max-width: 90%;
+  opacity: 0.8;
+  background-image: linear-gradient(to bottom, silver, #14475c, silver);
+  color: #ffffff;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: silver;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  font-family: test1000;
+  opacity: 0.8;
+  font-size: 1.5em;
+  border-radius: 10px;
+  margin: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+button:hover {opacity: 1;}
+
+ul {
+  min-width: 80%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 50%;
+  padding: 10px;
+  opacity: 0.8;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: silver;
+  border-radius: 15px;
+  list-style-type: none;
+}
+
+li {
+  height: 25px;
+}
+
+article {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  width: 90%;
+  display:inline-block;
+  padding: 10px;
+  margin: 10px;
+  opacity: 0.8;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: silver;
+  border-radius: 15px;
+}
+
+.dontBreakMyCharacter {
+  margin: 10px;
+  display:inline-block;
+}
+
+#diceArticle {
+  -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+}
+
+#diceH1 {
+  background-image: linear-gradient(to bottom, silver, black, silver);
+}
+
+#D4 {
+  font-size: 2em;
+}
+
+#D6 {
+  font-size: 2em;
+}
+
+#D8 {
+  font-size: 2em;
+}
+
+#D10 {
+  font-size: 2em;
+}
+
+#D12 {
+  font-size: 2em;
+}
+
+#D20 {
+  font-size: 2em;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dungeons and Dragons Helper</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="javascripts/character.js"></script>
+    <script src="javascripts/dice.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 801px)" href="stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 800px)" href="stylesheets/mobileStyle.css" />
+
+</head>
+
+<body class="diceBody">
+    <h1 id="diceH1">Dungeons and Dragons Dice</h1>
+    <a href="/"><button>Character Creator</button></a>
+    <article id="diceArticle">
+        <div class="row">
+            <div class="column">
+                <button onclick="D4()">D4</button>
+            </div>
+            <div class="column">
+                <div id="D4">-</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <button onclick="D6()">D6</button>
+            </div>
+            <div class="column">
+                <div id="D6">-</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <button onclick="D8()">D8</button>
+            </div>
+            <div class="column">
+                <div id="D8">-</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <button onclick="D10()">D10</button>
+            </div>
+            <div class="column">
+                <div id="D10">-</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <button onclick="D12()">D12</button>
+            </div>
+            <div class="column">
+                <div id="D12">-</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <button onclick="D20()">D20</button>
+            </div>
+            <div class="column">
+                <div id="D20">-</div>
+            </div>
+        </div>
+    </article>
+
+</body>
+
+</html>

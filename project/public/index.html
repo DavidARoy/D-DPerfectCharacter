@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dungeons and Dragons Helper</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="javascripts/character.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 801px)" href="stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 800px)" href="stylesheets/mobileStyle.css" />
+</head>
+
+<body class="characterBody">
+    <h1>Dungeons and Dragons Character Creator</h1>
+    <a href="/die"><button>Dice</button></a>
+    <div class="row">
+        <article>
+            <div class="column">
+                <h2>Make D&D Character</h2>
+                <label for="charStr">STR: </label><output type="text" id="charStr" placeholder="-"></output><br>
+                <label for="charConst">CONST: </label><output type="text" id="charConst" placeholder="-"></output><br>
+                <label for="charDex">DEX: </label><output type="text" id="charDex" placeholder="-"></output><br>
+                <label for="charInt">INT: </label><output type="text" id="charInt" placeholder="-"></output><br>
+                <label for="charWis">WIS: </label><output type="text" id="charWis" placeholder="-"></output><br>
+                <label for="charChar">CHAR: </label><output type="text" id="charChar" placeholder="-"></output><br>
+                <label for="statsTotal">TOTAL: </label><output type="text" id="statsTotal" placeholder="-"></output><br>
+                <button id="postCharacter">Post Character</button>
+                <p id="count">-</p>
+            </div>
+            <div class="column">
+                <h2>Your Best Character</h2>
+                <label for="bestCharStr">STR: </label><output type="text" id="bestCharStr" placeholder="-"></output><br>
+                <label for="bestCharConst">CONST: </label><output type="text" id="bestCharConst" placeholder="-"></output><br>
+                <label for="bestCharDex">DEX: </label><output type="text" id="bestCharDex" placeholder="-"></output><br>
+                <label for="bestCharInt">INT: </label><output type="text" id="bestCharInt" placeholder="-"></output><br>
+                <label for="bestCharWis">WIS: </label><output type="text" id="bestCharWis" placeholder="-"></output><br>
+                <label for="bestCharChar">CHAR: </label><output type="text" id="bestCharChar" placeholder="-"></output><br>
+                <label for="bestStatsTotal">TOTAL: </label><output type="text" id="bestStatsTotal" placeholder="-"></output><br>
+                <button id="postBestCharacter">Post Best Character</button>
+                <p id="charCount">-</p>
+            </div>
+        </article>
+    </div>
+    <button accesskey="r" onclick="rollCharacter()">Roll Character</button>
+
+
+    <button id="getCharacters">Get Characters</button>
+    <button id="deleteCharacters">Delete All</button>
+    <div id="done"></div>
+    <div id="characters"></div>
+
+</body>
+
+</html>
